@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header start */
+
+nav {
+  border-bottom: 1px solid #f5f5f5;
+  justify-content: space-around;
+  display: flex;
+  padding: 2px 1px;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: orange;
+  font-size: 35px;
+  font-family: Arial;
+  padding-top: 20px;
+}
+
+
+ul {
+  justify-content: center;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 7px;
+  margin-top: 34px;
+  font-size: 17px;
+  text-align: center;
+}
+ul li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #303236;
+  font-family: Arial;
+  transition: 0.4s ease-in-out;
+
+}
+ul li a:hover {
+  color: orange;
+}
+
+.cnp {
+  width: 167px;
+  height: 56px;
+  background-color: rgba(10, 89, 205, 1);
+  border: none;
+  margin-left: 39px;
+  font-size: 16px;
+  border-radius: 49px;
+  cursor: pointer;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.cnp a {
+  color: rgba(255, 255, 255, 1);
+}
+.content .cnp:hover {
+  background-color: aqua;
+}
+.cnp a {
+  text-decoration: none;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  color: #131305;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  background-color: #1566d6;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -24px;
+  transition: all 0.2s;
+}
+a:hover:after {
+  width: 100%;
+}
+
+/* Header End */
+/* Main part */
+
+ .h2 span {
+  color: #00cc8f;
+}
+ h1 {
+  text-align: center;
+  padding-top: 68px;
+  font-size: 29px;
+
+}
+.h2 h1 {
+    margin-left: 360px;
+    margin-top: 20px; 
+   font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+}
+.box{
+  display: flex;
+}
+.sec2 {
+  height: 1300px;
+  width: 100%;
+  background-color: white;
+}
+.sec2 .story h1 {
+  font-size: 29px;
+  padding-top: 80px;
+  text-align: center;
+}
+.sec2 .story h2 {
+  font-size: 45px;
+  margin-top: 24px;
+  text-align: center;
+}
+.sec2 .h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #667085;
+}
+
+.sec2 .logo {
+  background-color: rgba(246, 246, 246, 0.975);
+  width: 527px;
+  height: 500px;
+  margin-left: 170px;
+  margin-top: 80px;
+}
+
+.logo h4 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 22px;
+}
+.logo p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sec3 {
+  background-color: white;
+  width: 100%;
+  height: 1260px;
+}
+
+.sec3 h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.sec3 p {
+  /* font-size: 2vw;
+        text-align: center; */
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  max-width: 1275px;
+  padding-top: 15px;
+  margin-left: 122px;
+}
+
+.Founder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.Founder .pic h3 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.sec3 img {
+  width: 75%;
+}
+
+/* footer part */
+.footer-part {
+  /* width: 100%; */
+  height: 50px;
+  color: black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0ebeb;
+}
+.footer-part2 {
+  display: flex;
+  background-color: white;
+  color: black;
+  height: 400px;
+  justify-content: space-evenly;
+  background-color: #f0ebeb;
+}
+
+ol p {
+  display: block;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.fot1 img {
+  padding-left: 155px;
+  padding-top: 35px;
+}
+.fot1 h1 {
+  padding-left: 919px;
+  font-size: 20px;
+  margin-top: -35px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.fot1 {
+  background-color: #f0ebeb;
+}
+
+
+.icon{
+  display: none;
+  font-size: 30px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+  nav{
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    justify-content: space-around;
+    display: flex;
+    padding: 2px 1px;
+  }
+  nav ul{
+      display: none;
+  }
+ .icon{
+  display: flex;
+  font-size: 30px;
+  margin-left: 10rem;
+  margin-right: 10px;
+  align-items: center;
+  cursor: pointer; 
+ }
+ ul li {
+  list-style: none;
+  margin-left: 7px;
+  margin-top: 30px;
+  font-size: 17px;
+  text-align: center;
+}
+ ul li a {
+  font-size: 0.97rem;
+  text-decoration: none;
+  /* color: #ffffff; */
+  font-family: Arial;
+  transition: 0.4s ease-in-out;
+
+}
+ul li a:hover {
+  color: orange;
+}
+ .showData{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+   align-items: center;
+  position: absolute;
+  top: 84px;
+  background-color: white;
+  /* color: #dedede; */
+  width: 100%;
+  height: 460px;
+  text-align: center;
+  gap: 2px;
+  padding: 0px;
+
+
+ }
+ 
+.cnp {
+  width: 167px;
+  height: 56px;
+  background-color: rgba(10, 89, 205, 1);
+  border: none;
+  margin-left: 39px;
+  font-size: 16px;
+  border-radius: 49px;
+  cursor: pointer;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.cnp a {
+  color: rgba(255, 255, 255, 1);
+}
+.content .cnp:hover {
+  background-color: aqua;
+}
+.cnp a {
+  text-decoration: none;
+}
+/* End Navbar **************************/
+
+.h2 span {
+  color: #00cc8f;
+}
+ h1 {
+  text-align: center;
+  padding-top: 68px;
+  font-size: 29px;
+
+}
+.h2 h1 {
+    margin-top: 5px; 
+   font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
+.box{
+  width: 90%;
+  display: inline-block;
+}
+
+.sec2 .h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+  color: #667085;
+}
+
+.sec2 .logo {
+  background-color: rgba(246, 246, 246, 0.975);
+  width: 100%;
+  height: 500px;
+  margin-left: 17px;
+  margin-top: 20px;
+}
+
+.sec3{
+  background-color: white;
+    width: 100%;
+    height: 1260px;
+    margin-top: 65rem;
+}
+.sec3 {
+  background-color: white;
+  width: 100%;
+  height: 1260px;
+}
+
+.sec3 h1 {
+  text-align: center;
+  font-size: 2re;
+   margin-left: 5px;
+}
+.sec3 p {
+  
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding-top: 15px;
+  margin-left: 12px;
+}
+
+.Founder{
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+}
+.Pic{
+  margin-left: 3rem;
+
+}
+}
